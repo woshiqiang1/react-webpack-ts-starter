@@ -9,7 +9,8 @@
     "dev": "webpack serve --config webpack/webpack.dev.js  --mode development",
     "build": "webpack --config webpack/webpack.prod.js  --mode production",
     "test": "jest",
-    "test-c": "jest --coverage"
+    "test-c": "jest --coverage",
+    "prepare": "husky install"
   },
   "engineStrict": false,
   "engines": {

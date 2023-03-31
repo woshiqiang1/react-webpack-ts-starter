@@ -28,8 +28,8 @@ specifiers:
   husky: 8.0.1
   lint-staged: 13.0.3
   mini-css-extract-plugin: 2.7.5
-  mocker-api: ^2.9.5
-  mockjs: ^1.1.0
+  mocker-api: 2.9.5
+  mockjs: 1.1.0
   postcss-loader: 7.1.0
   postcss-nested: 6.0.1
   prettier: 2.8.6
