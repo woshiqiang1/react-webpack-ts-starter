@@ -1,16 +1,12 @@
 module.exports = {
   root: true,
-  extends: [
-    'alloy',
-    'alloy/react',
-    'alloy/typescript',
-  ],
+  extends: ['alloy', 'alloy/react', 'alloy/typescript', 'plugin:react-hooks/recommended'],
   env: {
     // Your environments (which contains several predefined global variables)
     //
     browser: true,
     node: true,
-    es6: true,
+    es6: true
     // mocha: true,
     // jest: true,
     // jquery: true
@@ -23,7 +19,7 @@ module.exports = {
   rules: {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off', // 生产环境禁用 debugger
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off', // 生产环境禁用 console
-    "@typescript-eslint/no-explicit-any": 0,
-    "@typescript-eslint/no-require-imports": 0,
-  },
-};
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/no-require-imports': 0
+  }
+}
